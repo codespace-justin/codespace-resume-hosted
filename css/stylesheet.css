@@ -1,0 +1,77 @@
+body{
+  font-family: sans-serif;
+  font-size:110%;
+  background-color: #FCF7F8;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+#heading{
+  font-family: sans-serif;
+  background-color: #2d5b97;
+  padding: 1rem;
+  color: white;
+}
+
+#headshot{
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}
+
+
+#sidebar {
+  width: 20%;
+  padding: 1rem;
+  background-color: #000000ea;
+}
+
+.nav-menu {
+  list-style-type: none;
+  padding: 0;
+  color: #fff;
+}
+
+a {
+  color: rgb(67, 192, 51);
+  text-decoration: none;
+}
+
+#sidebar a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+}
+#sidebar a:hover {
+  color: rgb(61, 223, 110);
+  text-decoration: none;
+  width: 100%;
+}
+
+
+footer {
+  padding: 1rem;
+  background-color: #343330;
+  text-align: center;
+}
+
+#content {
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem 10vw;
+
+}
+
+.icons{
+  width:3rem;
+  margin: 0.5rem;
+  height: auto;
+}
+
+.section {
+  padding-top: 3rem;
+}
