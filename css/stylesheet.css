@@ -11,9 +11,25 @@ header {
 
 #heading{
   font-family: sans-serif;
-  background-color: #2d5b97;
-  padding: 1rem;
   color: white;
+  min-height: 100vh;
+
+  padding-top: 2rem;
+
+  /* bg */
+  background-color: #000000;
+  background-image:url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1874&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 0 15%;
+  padding: 4rem;
+  border-radius: 7px;
 }
 
 #headshot{
@@ -25,7 +41,6 @@ header {
 
 
 #sidebar {
-  width: 20%;
   padding: 1rem;
   background-color: #000000ea;
 }
